@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 dotenv.config();
-const MONGO_URI = process.env.MONGODB_URI || "mongodb+srv://testuser:testuser123@notesapp.hxizhf9.mongodb.net/?retryWrites=true&w=majority&appName=notesapp"
+const MONGO_URI = process.env.MONGODB_URI || "mongodb+srv://testuser:testuser123@notesapp.hxizhf9.mongodb.net/?retryWrites=true&w=majority&appName=notesapp";
 
 
 mongoose.connect(MONGO_URI);
