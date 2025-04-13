@@ -1,1 +1,1 @@
-export const BASE_URL = "https://notesapp-backend-4i3c.onrender.com" || "http://localhost:8000"
+export const BASE_URL = "https://notesapp-backend-4i3c.onrender.com"

@@ -23,7 +23,7 @@ import  authenticateToken  from "./utilities.js";
 app.use(express.json());
 
 app.use(cors({
-    origin:'https://notesapp-ashy-five.vercel.app/',
+    origin:'https://notesapp-ashy-five.vercel.app',
 
 }));
 
